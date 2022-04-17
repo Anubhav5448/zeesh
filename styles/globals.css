@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+
+@tailwind base;
+.hover\:underline:hover {
+    text-decoration-line: underline;
+    text-decoration-color: orange;
+}
+@tailwind components;
+@layer components{
+
+    .main_content{
+      @apply font-bold text-lg
+
+    }
+    .container{
+        @apply flex flex-col px-14 py-12  
+
+    }
+    .lists{
+        @apply cursor-pointer my-2 font-medium
+    }
+
+
+
+    /* .info_main{
+        @apply h-60 bg-red-400
+    } */
+}
+@tailwind utilities;
+
